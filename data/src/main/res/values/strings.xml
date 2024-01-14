@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="false">Channel human readable title</string>
+
+    <!--region announcements-->
+    <string name="title_row_announcemets_announcement_title">Announcement</string>
+    <string name="title_row_announcemets_announcement_start_date">Start date</string>
+    <string name="title_menu_fragment_announcement_search">Search</string>
+    <string name="message_fragment_announcements_empty">No announcement found</string>
+    <!--endregion-->
+
+
+    <!--region asessments-->
+    <string name="label_row_assessment_time">Time:</string>
+    <string name="label_fragment_assessment_details_full_marks">Full Marks</string>
+    <string name="label_fragment_assessment_details_student_marks">Student Marks</string>
+    <string name="label_fragment_assessment_details_indicator">Indicator :</string>
+    <string name="label_fragment_assessment_details_level">Level :</string>
+    <string name="label_fragment_assessment_details_title">Title :</string>
+    <string name="title_menu_fragment_assessments_search">Search..</string>
+    <string name="label_fragment_assessment_details_comment">Comment :</string>
+    <!--endregion-->
+
+    <!--region assignments-->
+    <string name="title_filter_assignments_fragment_exams">Exams</string>
+    <string name="title_filter_assignments_fragment_homeworks">Online Assignments</string>
+    <string name="button_row_assignments_start">Start</string>
+    <string name="button_row_assignments_missed">Missed</string>
+    <string name="button_row_assignments_submission_grade">Submission Grade</string>
+    <string name="button_row_assignments_start_again">Start Again</string>
+    <string name="title_row_assignments_fragment_course">Course</string>
+    <string name="title_row_assignments_fragment_start_date">Start Date</string>
+    <string name="title_row_assignments_fragment_due_date">Due Date</string>
+    <string name="title_row_assignments_fragment_teacher_name">Teacher Name</string>
+    <string name="title_menu_fragment_assignments_search">Search…</string>
+    <string name="title_menu_fragment_assignments_filter">Filter</string>
+    <string name="button_row_assignment_action_launch_again">Start again</string>
+    <string name="button_row_assignment_action_submission_grad">Submission Grade</string>
+    <string name="button_row_assignment_action_missed">Missed</string>
+    <string name="button_row_assignment_action_launch">Launch</string>
+    <string name="title_dialog_missed_exam">Exam missed</string>
+    <string name="message_dialog_missed_exam">You missed this exam</string>
+    <string name="label_fragment_assignment_details_duration">Duration:</string>
+    <string name="label_fragment_assignment_details_duration_value">%02d minutes</string>
+    <string name="label_fragment_assignment_details_comments">Comments:</string>
+    <string name="label_fragment_assignment_details_course">Course:</string>
+    <string name="label_fragment_assignment_details_publish_date">Publish date:</string>
+    <string name="label_fragment_assignment_details_due_date">Due date:</string>
+    <string name="label_fragment_assignment_details_allow_multiple_submissions">Allow multiple submissions:</string>
+    <string name="label_fragment_assignment_details_maximum_number_of_submissions">Maximum number of submissions:</string>
+    <string name="label_fragment_assignment_details_maximum_number_of_submissions_value">%s/%s</string>
+    <string name="label_fragment_assignment_details_mark">Mark:</string>
+    <string name="label_fragment_assignment_details_mark_value">%s/%s</string>
+    <string name="label_fragment_assignment_details_teacher_name">Teacher name:</string>
+    <string name="button_fragment_assignment_start_exam">Start</string>
+    <string name="label_fragment_assignment_details_score">Score:</string>
+    <string name="label_fragment_assignment_details_student_average">Student average</string>
+    <string name="label_fragment_assignment_section_average">Section average</string>
+    <string name="label_fragment_assignment_details_rate">Rate assignment</string>
+    <string name="button_bottom_sheet_rating_submit">Submit</string>
+    <string name="bottom_sheet_rating_title_assignments">Rate assignment</string>
+    <string name="label_fragment_assignment_details_congrats">You have earned %f points\nwill be added after 24 hours of submission</string>
+    <string name="title_dialog_answers_access_denied">Access denied</string>
+    <string name="message_dialog_answers_access_denied">You cannot show answers for this exam</string>
+    <string name="label_fragment_solve_assignment_questions">Questions</string>
+    <string name="label_fragment_solve_assignment_exam_time_left">Exam time left</string>
+    <string name="button_fragment_solve_assignment_previous">Previous</string>
+    <string name="button_fragment_solve_assignment_next">Next</string>
+    <string name="button_fragment_solve_assignment_submit">Submit</string>
+    <string name="hint_fragment_essay_answer">Answer</string>
+    <string name="label_fragment_solve_assignment_question_number">Question %d</string>
+    <string name="label_true_false_question">True or False Question</string>
+    <string name="label_create_question">Create Question</string>
+    <string name="hint_add_question_text">Question Text</string>
+    <string name="label_question_answer">Answer</string>
+    <string name="label_question_answer_false">False</string>
+    <string name="label_question_answer_true">True</string>
+    <string name="label_add_question_mark">Mark</string>
+    <string name="label_add_question_difficulty">Difficulty</string>
+    <string name="label_button_add_question">Add Question</string>
+    <string name="ask_to_choose_answer">Please choose True or False answer to proceed</string>
+    <string name="mark_entered_check">Mark must be greater than 0</string>
+    <string name="label_fragment_questions_list_question_number">Question</string>
+    <string name="label_fragment_questions_list_question_correct_answer">Correct Answer :</string>
+    <string name="label_fragment_questions_list_question_text">Question Text :</string>
+    <string name="label_fragment_questions_list_question_difficulty_easy">Easy</string>
+    <string name="label_fragment_questions_list_question_difficulty_medium">Medium</string>
+    <string name="label_fragment_questions_list_question_difficulty_hard">Hard</string>
+    <string name="label_fragment_questions_list_question_type_essay">Essay</string>
+    <string name="label_fragment_questions_list_question_type_fill_blank">Fill the blank</string>
+    <string name="label_fragment_questions_list_question_type_hot_spot">Hot spot</string>
+    <string name="label_fragment_questions_list_question_type_matching">Matching</string>
+    <string name="label_fragment_questions_list_question_type_multiple_choice">Multiple choice</string>
+    <string name="label_fragment_questions_list_question_type_multiple_select">Multiple select</string>
+    <string name="label_fragment_questions_list_question_type_true_false">True and false</string>
+    <string name="hint_row_matching_answer">Answer</string>
+    <string name="button_bottom_sheet_answer_response">Ok</string>
+    <string name="your_not_allowed_message">You are not allowed to do this action</string>
+    <string name="title_dialog_not_attempted_exam">Not Attempted!</string>
+    <string name="message_dialog_not_attempted_exam">This exam not attempted yet</string>
+    <string name="title_submit_answers_dialog">Submit</string>
+    <string name="message_submit_answers_dialog">Are you sure you want to submit this exam?</string>
+    <string name="button_show_answers">Show answers</string>
+    <string name="button_create_multiple_choice_question">Add Question</string>
+    <string name="hint_create_assignment_difficulty">Diffculty</string>
+    <string name="hint_create_multiple_choice_question_mark">Mark</string>
+    <string name="hint_create_multiple_choice_question_title">Title</string>
+    <string name="hint_create_multiple_choice_question_answer">Answer</string>
+    <string name="title_create_multiple_choice_question_add_tag">Add</string>
+    <string name="multiple_choice_question">Create Multiple Choice Question</string>
+
+    <!--  Menu Assignment actions  -->
+    <string name="title_menu_assignment_teacher_actions_view_details">View Details</string>
+    <string name="title_menu_assignment_teacher_actions_edit">Edit</string>
+    <string name="title_menu_assignment_teacher_actions_delete">Delete</string>
+
+    <!--  Delete Assignment dialog  -->
+    <string name="button_positive_delete_assignment_dialog">Delete</string>
+    <string name="button_negative_delete_assignment_dialog">Cancel</string>
+    <string name="title_delete_assignment_dialog">Delete Assignment</string>
+    <string name="message_delete_assignment_dialog">Are you sure you want to delete %s Assignment?</string>
+    <string name="title_fragment_question_types_bottom_sheet">Add new question</string>
+    <string name="type_fragment_question_types_bottom_sheet_assignments_truefalse">ُTrue or False</string>
+    <string name="type_fragment_question_types_bottom_sheet_assignments_multiple_choice">Multiple Choice</string>
+    <string name="type_fragment_question_types_bottom_sheet_assignments_essay">Essay</string>
+    <string name="type_fragment_question_types_bottom_sheet_multiple_select_answers">Multiple select answers</string>
+
+    <!-- Add Assignment -->
+    <string name="label_fragment_add_assignment_assignment_info">Assignment Info</string>
+    <string name="hint_fragment_add_assignment_course">Course</string>
+    <string name="hint_fragment_add_assignment_type">Type</string>
+    <string name="hint_fragment_add_assignment_title">Title</string>
+    <string name="label_fragment_add_assignment_exam_time_limit">Exam Time Limit</string>
+    <string name="hint_fragment_add_assignment_assignment_duration">Assignment Duration</string>
+    <string name="label_fragment_add_assignment_question_duration">Question Duration</string>
+    <string name="hint_fragment_add_assignment_publish_date">Publish Date</string>
+    <string name="hint_fragment_add_assignment_duo_date">Due Date</string>
+    <string name="label_fragment_add_assignment_publish_later">Publish Later</string>
+    <string name="label_fragment_add_assignment_select_audience">Select audience for the assignment</string>
+    <string name="hint_fragment_add_assignment_publish_to">Publish To</string>
+    <string name="hint_fragment_add_assignment_select_students">Select Students</string>
+    <string name="hint_fragment_add_assignment_select_sections">Select Sections</string>
+    <string name="label_fragment_add_assignment_show_more_options">Show Other Options</string>
+    <string name="label_fragment_add_assignment_date_format">%d-%02d-%02d</string>
+    <string name="label_fragment_add_assignment_time_format">%02d:%02d</string>
+    <string name="label_fragment_add_assignment_other_options">Other Options</string>
+    <string name="label_fragment_add_assignment_allow_multiple_submission">Allow Multiple Submission</string>
+    <string name="hint_fragment_add_assignment_preparation">Preparation</string>
+    <string name="label_fragment_add_assignment_set_total_mark">Set a total mark and automatically distribute on question</string>
+    <string name="hint_fragment_add_assignment_total_mark">Total Mark</string>
+    <string name="hint_fragment_add_assignment_number_of_submissions">Number Of Submission</string>
+    <string name="hint_fragment_add_assignment_more_options">More Options</string>
+    <string name="helper_text_fragment_add_assignment_please_select_course">Please select course</string>
+    <string name="hint_fragment_add_assignment_passing_percentage">Passing Percentage</string>
+    <string name="label_fragment_add_assignment_create">Create</string>
+    <string name="label_fragment_add_assignment_edit">Edit</string>
+    <string name="error_fragment_add_assignment_empty_number_of_submission">Please fill number of submission</string>
+    <string name="error_fragment_add_assignment_empty_total_mark">Please fill total mark</string>
+    <string name="error_fragment_add_assignemnt_empty_title">Please fill title</string>
+    <string name="error_fragment_add_assignment_empty_publish_to">Please select publish to</string>
+    <string name="error_fragment_add_assignment_empty_section">Please select section</string>
+    <string name="error_fragment_add_assignment_empty_student">Please select student</string>
+    <string name="essay_question">Essay Question</string>
+    <string name="hint_create_assignment_title">Question Title</string>
+    <string name="hint_create_assignment_mark">Mark</string>
+    <string name="hint_create_assignment_answer">Answer</string>
+    <string name="button_create_assignment_add_question">Add Question</string>
+    <string name="question_added_successfully">Question has been added successfully</string>
+    <string name="message_assignment_created_successfully">Exam created successfully</string>
+    <string name="button_continue_exam">Continue exam</string>
+    <string name="label_fragment_true_false_false">False</string>
+    <string name="label_fragment_true_false_true">True</string>
+    <string name="toast_time_left">Exam time is up</string>
+    <string name="toast_exam_submitted">The exam has been submitted successfully</string>
+    <string name="title_fragment_solve_assignment_show_hint">Show hint</string>
+    <string name="title_menu_assignment_teacher_actions_recall">Recall</string>
+    <string name="message_recall_assignment_dialog">Are you sure you want to recall %s?</string>
+    <string name="message_can_not_take_exam_on_app">You can take this assignment only on web</string>
+    <string name="clear_all">Reset</string>
+    <string name="filters">Filters</string>
+    <string name="course_type">Course</string>
+    <string name="work_type">Work type</string>
+    <string name="courses">Courses</string>
+    <string name="no_data_found">No data found</string>
+    <string name="message_do_not_have_browser">You may not have a web browser</string>
+    <!--endregion-->
+
+    <!--region attachment-->
+    <string name="hint_activity_attachment_details_add_a_comment">Add a comment</string>
+    <string name="bottom_sheet_rating_title_attachment">Rating</string>
+    <string name="no_comments">No comments yet</string>
+    <string name="hint_fragment_add_attachment_title">Attachment title</string>
+    <string name="hint_fragment_add_attachment_description">Description</string>
+    <string name="text_fragment_add_attachment_share_on_my_timeline">Share on my timeline</string>
+    <string name="hint_fragment_add_attachment_publish_date">Publish date</string>
+    <string name="hint_fragment_add_attachment_publish_select_lecture">Select lecture</string>
+    <string name="hint_fragment_add_attachment_publish_select_student">Select student</string>
+    <string name="hint_fragment_add_attachment_publish_select_preparation">Select preparation</string>
+    <string name="hint_fragment_add_attachment_publish_sharing_level">Sharing level</string>
+    <string name="hint_fragment_add_attachment_publish_sharing_to_custom_library">Sharing to custom library</string>
+    <string name="button_fragment_add_attachment_upload_attachment">Upload attachment</string>
+    <string name="text_fragment_add_attachment_allow_student_download">Allow student to download</string>
+    <string name="title_fragment_add_attachment_add_tag">Add tag</string>
+    <string name="text_fragment_add_attachment_youtube">Youtube link</string>
+    <string name="text_fragment_add_attachment_viemo">Vimeo link</string>
+    <string name="text_fragment_add_attachment_one_drive">One drive link</string>
+    <string name="text_fragment_add_attachment_local_file">Local file</string>
+    <string name="label_fragment_add_attachment_attach_cover_image">Attach cover image</string>
+    <string name="text_fragment_add_attachment_time_format">%02d:%02d</string>
+    <string name="text_fragment_add_attachment_date_format">%d-%02d-%02d</string>
+    <string name="hint_fragment_add_attachment_video_link">Video link</string>
+    <string name="hint_fragment_add_attachment_add_tag">Type tag</string>
+    <string name="hint_fragment_add_attachment_publish_preparations">Preparations</string>
+    <string name="hint_fragment_add_attachment_publish_time">Publish time</string>
+
+    <!-- Validation -->
+    <string name="validation_fragment_add_attachment_title">Please enter title</string>
+    <string name="validation_fragment_add_attachment_description">Please enter description</string>
+    <string name="validation_fragment_add_attachment_date">Please enter publish date</string>
+    <string name="validation_fragment_add_attachment_time">Please enter publish time</string>
+    <string name="cannot_upload_this_type">Cannot upload this type of attachment</string>
+    <string name="label_fragment_attachment_details_publish_date">Publish Date:</string>
+    <string name="label_fragment_attachment_details_created_date">Created Date:</string>
+    <string name="toast_fragment_attachment_details_please_wait">Please wait .....</string>
+    <string name="title_attachment_bottom_sheet_title">Sorry ...</string>
+    <string name="title_attachment_bottom_sheet_not_supported">This type of attachments is not supported on the application</string>
+    <string name="title_attachment_bottom_sheet_ok">Ok</string>
+    <string name="file_exceed_the_limi">The chosen file exceeds the size limits.</string>
+    <string name="label_fragment_add_attachment_max_note_attach_file">Maximum upload file size: 400 MB.</string>
+    <string name="file_not_selected">Please attach one file</string>
+    <string name="msg_background_work">The uploading process will continue as you navigate the app, but it will stop you close the app.</string>
+    <string name="file_upload_success">File Uploading...</string>
+    <string name="noti_channel_default">Default</string>
+    <string name="in_progress">In Progress</string>
+    <string name="message_upload_success">Success</string>
+    <string name="file_upload_successful">The file has been uploaded successfully.</string>
+    <string name="message_upload_failed">upload fail</string>
+    <string name="error_upload_failed">An unknown error occurs, please try again later.</string>
+    <string name="btn_retry_not">Retry</string>
+    <string name="btn_cancel_not">Cancel</string>
+    <string name="title_fragment_add_youtube_links">Add Video Link</string>
+    <string name="cannot_add_more_files">Can\'t add more than 4 Videos</string>
+    <string name="cannot_add_more_material">Can\'t add more than 4 Files</string>
+    <string name="hint_fragment_add_attachment_video_link_1">Video link 1</string>
+    <string name="hint_fragment_add_attachment_video_link_2">Video link 2</string>
+    <string name="hint_fragment_add_attachment_video_link_3">Video link 3</string>
+    <string name="hint_fragment_add_attachment_video_link_4">Video link 4</string>
+    <string name="you_have_select_x">* You have selected %s videos</string>
+    <string name="title_fragment_add_more_attachments">Add more attachments</string>
+    <string name="label_fragment_add_attachment_attach_cover_image_1">Attach cover image 1</string>
+    <string name="label_fragment_add_attachment_attach_cover_image_2">Attach cover image 2</string>
+    <string name="label_fragment_add_attachment_attach_cover_image_3">Attach cover image 3</string>
+    <string name="label_fragment_add_attachment_attach_cover_image_4">Attach cover image 4</string>
+    <string name="label_fragment_add_attachment_attach_material_file_1">Attach file 1</string>
+    <string name="label_fragment_add_attachment_attach_material_file_2">Attach file 2</string>
+    <string name="label_fragment_add_attachment_attach_material_file_3">Attach file 3</string>
+    <string name="label_fragment_add_attachment_attach_material_file_4">Attach file 4</string>
+    <string name="comment">Comment</string>
+    <string name="title_fragment_digital_library_open_in_browser">Open in Browser</string>
+    <string name="title_check_storage_dialog">Your device does not have enough space to save the video offline. Delete some files and try again.</string>
+    <string name="file_is_uploading">Another uploading process is happening now. Please try again later.</string>
+    <string name="time_must_be_in_future">Time must be in future</string>
+    <string name="stdandmaterialempty">Please select lectures or students</string>
+    <string name="lecareempty">Please select lectures</string>
+    <!--endregion-->
+
+    <!--region attachment-components-->
+    <string name="label_unknown_attachment">We cannot preview this type of files.</string>
+    <string name="toast_attachment_messages_adapter_no_activity_found">There is no application to open this type of attachments</string>
+    <string name="invalid_vimeo_url">Invalid video url</string>
+    <string name="title_activity_attachment_details_open_in_browser">Open in Browser</string>
+    <!--endregion-->
+
+    <!--region attendance-->
+    <string name="text_view_attendance_fragment_absences">Date:</string>
+    <string name="comment_label_text">Comment:</string>
+    <string name="label_attendance_fragment_excused">Excused</string>
+    <string name="label_attendance_fragment_unexcused">Unexcused</string>
+    <string name="title_menu_fragment_attendance_filter">Filter</string>
+    <string name="hint_fragment_take_attendance_date">Leave Date</string>
+    <string name="hint_fragment_take_attendance_name">Student Name</string>
+    <string name="hint_fragment_take_attendance_section">Select section</string>
+    <string name="hint_fragment_take_attendance_time_slot">Select time slot</string>
+    <string name="title_item_menu_fragment_take_attendance_scan_faces">Scan faces</string>
+    <string name="action_row_take_attendance_present">Present</string>
+    <string name="action_row_take_attendance_absent">Absent</string>
+    <string name="action_row_take_attendance_late">Late</string>
+    <string name="action_row_take_attendance_excused">Excused</string>
+    <string name="action_row_edit_attendance_left_with_permission">LP</string>
+    <string name="hint_fragment_take_attendance_time">Time</string>
+    <string name="text_fragment_take_attendance_time_format">%02d:%02d</string>
+    <string name="text_fragment_take_attendance_date_format">%d-%02d-%02d</string>
+    <string name="error_fragment_take_attendance_empty_time_slots">There is no time slots for selected section, please select one to create</string>
+    <string name="helper_text_fragment_take_attendance_time_slots">Please select section to select time slot</string>
+    <string name="hint_fragment_take_attendance_courses">Select Course</string>
+    <string name="please_select_course">Please select course so you can select section</string>
+    <string name="sms_notification">Notify guardians by SMS</string>
+    <string name="hint_reason">Reason</string>
+    <string name="save">Save</string>
+    <string name="err_please_enter_reason">Please enter reason</string>
+    <string name="err_please_select_time">Please select time</string>
+    <string name="success_left_with_permission">Status changed successfully</string>
+    <string name="bottom_sheet_title_text_view">Add Student Leaves</string>
+    <string name="success_face_recognize_message">Success</string>
+    <!--endregion-->
+
+    <!--region authentication-->
+    <string name="hint_activity_login_username">Login Name</string>
+    <string name="hint_activity_login_password">Password</string>
+    <string name="button_activity_login">Login</string>
+    <string name="button_activity_register">Register</string>
+    <string name="activity_login_forgot_password">Forgot Password?</string>
+    <string name="hint_bottom_sheet_forgot_password_username">Username</string>
+    <string name="button_bottom_sheet_forgot_password">Submit</string>
+    <string name="button_bottom_sheet_forgot_password_forgot_username">Forgot Username?</string>
+    <string name="title_bottom_sheet_verification_code">Verification Code</string>
+    <string name="hint_bottom_sheet_verification_code">Verification Code</string>
+    <string name="button_bottom_sheet_verification_code_verify">Verify</string>
+    <string name="title_bottom_sheet_forgot_username">Forgot Username?</string>
+    <string name="hint_bottom_sheet_forgot_username_id_number">ID Number</string>
+    <string name="button_bottom_sheet_forgot_username">Submit</string>
+    <string name="invalid_password">password is required</string>
+    <string name="access_denied">Sorry, this role will be supported in the next version</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_microsoft">Login with Microsoft</string>
+    <string name="login_with_mawhiba">Login with Mawhiba</string>
+    <string name="oring_layout">OR</string>
+
+    <!-- Validation -->
+    <string name="validation_bottom_sheet_verification_code_code">Please enter verification code</string>
+    <string name="validation_bottom_sheet_forgot_password_username">Please enter user name</string>
+    <string name="validation_bottom_sheet_forgot_username_id_number">Please enter ID number</string>
+    <string name="client_id" translatable="false">105625603354-9rgvte4mchcc81cqrruvuttgf1bdfm7d.apps.googleusercontent.com</string>
+    <!--endregion-->
+
+    <!--region behaviours-->
+    <string name="title_menu_fragment_behaviours_search">Search…</string>
+    <string name="title_row_behaviour_fragment_behaviour">Behaviour</string>
+    <string name="title_row_behaviour_fragment_action">Action title</string>
+    <string name="title_row_behaviour_fragment_behaviour_date">Date</string>
+    <string name="title_row_behaviour_fragment_course">Course</string>
+    <string name="title_row_behaviour_fragment_behaviour_description_behaviour">Behaviour description</string>
+    <string name="title_row_behaviour_fragment_behaviour_point_behaviour">Behaviour point</string>
+    <string name="title_row_behaviour_fragment_action_description">Action description</string>
+    <string name="title_row_behaviour_fragment_action_point">Action point</string>
+    <string name="sign_row_behaviour_fragment_action_positive">+%s</string>
+    <string name="sign_row_behaviour_fragment_action_negative">-%s</string>
+    <string name="title_menu_behavior_teacher_actions_delete">Delete</string>
+    <string name="title_menu_behavior_teacher_actions_edit">Edit</string>
+    <string name="title_menu_behavior_teacher_actions_edit_behaviour">Edit Behaviour</string>
+
+    <!--  Delete VCR dialog  -->
+    <string name="button_positive_delete_behavior_dialog">Delete</string>
+    <string name="button_negative_delete_behavior_dialog">Cancel</string>
+    <string name="title_delete_behavior_dialog">Delete Behavior</string>
+    <string name="title_survey_behavior_dialog">Take Survey</string>
+
+    <string name="message_delete_behavior_dialog">Are you sure you want to delete %s Behavior?</string>
+    <string name="hint_fragment_add_behaviour_course">Select course</string>
+    <string name="hint_fragment_add_behaviour_lecture">Select lecture</string>
+    <string name="label_fragment_add_behaviour_negative_behavior">Negative behavior</string>
+    <string name="label_fragment_add_behaviour_positive_behavior">Positive behavior</string>
+    <string name="hint_fragment_add_behaviour_student">Select student</string>
+    <string name="hint_fragment_add_behaviour_group">Select behavior group</string>
+    <string name="hint_fragment_add_behaviour_select_behaviour">Select behavior</string>
+    <string name="hint_fragment_add_behaviour_action">Select action</string>
+    <string name="hint_fragment_add_behaviour_date">Select date</string>
+    <string name="hint_fragment_add_behaviour_details">Details</string>
+    <string name="label_fragment_add_behaviour_show_to_guardian">Show to guardian</string>
+    <string name="label_fragment_add_behaviour_show_to_student">Show to student</string>
+    <string name="label_fragment_add_behaviour_upload_attachment">Upload attachment (Optional)</string>
+    <string name="button_fragment_add_behaviour">Add</string>
+    <string name="label_fragment_add_behaviour_type">Behavior type</string>
+    <string name="text_fragment_add_behaviour_date_format">%d-%02d-%02d</string>
+
+    <!-- Validation -->
+    <string name="validation_fragment_add_behaviour_student">Please select student</string>
+    <string name="validation_fragment_add_behaviour_course">Please select course</string>
+    <string name="validation_fragment_add_behaviour_behaviour">Please select behaviour</string>
+    <string name="validation_fragment_add_behaviour_action">Please select action</string>
+    <string name="validation_fragment_add_behaviour_group">Please select group</string>
+    <string name="validation_fragment_add_behaviour_date">Please select date</string>
+    <string name="validation_fragment_add_behaviour_lecture">Please select lecture</string>
+    <string name="title_row_behaviour_fragment_behaviour_details_behaviour">Details</string>
+    <string name="button_download_attachment_label">Download Attachment</string>
+    <string name="message_storage_permission">In order to download the attachment you should allow Classera to access your storage</string>
+    <!--endregion-->
+
+    <!--region calendar-->
+    <string name="title_menu_calender_event_teacher_actions_delete">Delete</string>
+    <string name="title_menu_calender_event_teacher_actions_edit">Edit</string>
+
+    <!--  Delete event dialog  -->
+    <string name="button_positive_delete_calender_event_dialog">Delete</string>
+    <string name="button_negative_delete_calender_event_dialog">Cancel</string>
+    <string name="title_delete_calender_event_dialog">Delete event</string>
+    <string name="message_delete_calender_event_dialog">Are you sure you want to delete the event?</string>
+
+    <!--  Add/Edit event  -->
+    <string name="title_fragment_add_event_calender_title">Academic calender</string>
+    <string name="title_fragment_add_event_calender_title_edit">Edit event</string>
+    <string name="hint_fragment_add_calender_event_title">Title</string>
+    <string name="title_fragment_add_calender_event_start_date">Start date</string>
+    <string name="title_fragment_add_calender_event_end_date">End date</string>
+    <string name="title_fragment_add_calender_event_send_to_all">Send to all</string>
+    <string name="title_fragment_add_calender_event_all_day">All day</string>
+    <string name="button_fragment_add_calender_event_share">Share</string>
+    <string name="hint_fragment_add_calender_event_lectures">Lectures</string>
+    <string name="hint_fragment_add_calender_event_invite_some_one">Invite some one</string>
+    <string name="hint_fragment_add_calender_event_description">Description</string>
+    <string name="hint_fragment_add_calender_event_date">Date</string>
+    <string name="hint_fragment_add_calender_event_time">Time</string>
+    <string name="button_fragment_add_event_create">Create</string>
+    <string name="button_fragment_add_event_save">Save</string>
+    <string name="title_fragment_add_calender_event_create">Create event</string>
+    <string name="title_fragment_add_calender_event_edit">Edit event</string>
+    <string name="text_fragment_add_calender_event_time_format">%02d:%02d</string>
+    <string name="text_fragment_add_calender_event_date_format">%d-%02d-%02d</string>
+    <string name="no_events">No events added</string>
+
+    <!-- Validation -->
+    <string name="validation_fragment_add_calender_event_start_time">Please select start time</string>
+    <string name="validation_fragment_add_calender_event_start_date">Please select start date</string>
+    <string name="validation_fragment_add_calender_event_end_time">Please select end time</string>
+    <string name="validation_fragment_add_calender_event_end_date">Please select end date</string>
+    <string name="validation_fragment_add_calender_event_lectures">Please select lectures</string>
+    <string name="validation_fragment_add_calender_event_title">Please enter title</string>
+    <!--endregion-->
+
+    <!--region callchildren-->
+    <string name="arrived">Arrived</string>
+    <string name="calling">Calling</string>
+    <string name="call">Call</string>
+
+    <string name="in_school">In School</string>
+    <string name="on_the_way">On the Way</string>
+    <!--endregion-->
+
+    <!--region chat-->
+    <string name="title_menu_fragment_chat_search">Search…</string>
+    <string name="title_menu_fragment_chat_filter">Filter</string>
+    <string name="title_fragment_chat_users">Chat Users</string>
+    <string name="title_menu_fragment_chat_message_block_user">Block user</string>
+    <string name="title_menu_fragment_chat_message_group_users">Group users</string>
+    <string name="title_menu_chat_blocked_users">Blocked users</string>
+    <string name="title_menu_chat_appear_status">Appear %s</string>
+    <string name="title_menu_chat_create_group">New group</string>
+    <string name="title_chat_fragment_user_status">Chat - %s</string>
+    <string name="message_chat_block_word">block</string>
+    <string name="message_chat_unblock_word">unblock</string>
+    <string name="message_chat_blocked_users_dialog">Are you sure you want to %s this user?</string>
+    <string name="hint_edit_text_fragment_chat_group_info_name">Please provide a group name</string>
+    <string name="hint_edit_text_fragment_chat_messages">Write a message</string>
+    <string name="message_chat_block_success">User has been blocked</string>
+    <string name="message_chat_unblock_success">User has been unblocked</string>
+    <string name="message_chat_check_blocked_status">unblocked</string>
+    <string name="required_field_group_users_info_name">Please fill the group name</string>
+    <string name="required_field_group_users_info_users">Please fill the group users</string>
+    <string name="label_added_to_group">%s added to group</string>
+    <string name="label_removed_from_group">%s removed from group</string>
+    <string name="title_message_to_delete_group">Remove group</string>
+    <string name="body_message_to_delete_group">Are you sure you want to delete this group?</string>
+    <string name="title_message_to_delete_user">Remove User</string>
+    <string name="body_message_to_delete_user">Are you sure you want to delete this user?</string>
+    <string name="toast_chat_messages_adapter_no_activity_found">There is no application to open this type of attachments</string>
+    <string name="message_row_message_others_sender_not_supported_message_type">Cannot show this type of messages</string>
+    <string name="label_online">Online</string>
+    <string name="label_offline">Offline</string>
+    <string name="record_is_too_short">Your record is too short</string>
+    <string name="exceed_size">Oooops, Attachment size exceeds the allowable limit</string>
+    <string name="something_went_wrong">Oooops, Something went wrong</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="toast_blocked_user">You can\'t chat with a blocked user</string>
+    <!--endregion-->
+
+    <!--region classvisits-->
+    <string name="title_fragment_class_visits_school">School</string>
+    <string name="title_fragment_class_visits_time_slot">Timeslot</string>
+    <string name="title_fragment_class_visits_assessment">Assessment</string>
+    <string name="hint_fragment_add_class_visit_Date">Date</string>
+    <string name="hint_fragment_add_class_visit_Teacher">Teacher</string>
+    <string name="title_fragment_add_class_visit_Private">Private</string>
+    <string name="title_fragment_add_class_show_to_teacher">Show Class Visit To Teacher</string>
+    <string name="title_fragment_add_llow_teacher_feedback">Allow The Teacher To Add A Feedback</string>
+    <string name="button_fragment_add_visit_add">Add</string>
+    <string name="text_fragment_add_visit_date_format">%d-%02d-%02d</string>
+    <string name="toast_fragment_add_visit_error_timeslot">This teacher do not have timeslot, please select another teacher</string>
+    <string name="validation_fragment_add_visit_assessment">Please select assessment</string>
+    <string name="validation_fragment_add_visit_date">Please select date</string>
+    <string name="validation_fragment_add_visit_teacher">Please select teacher</string>
+    <string name="validation_fragment_add_visit_timeslot">Please select timeslot</string>
+    <string name="success_message">The new visit has been added successfully</string>
+    <string name="label_fragment_add_class_visit_private">Private</string>
+    <string name="label_fragment_add_class_visit_public">Public</string>
+    <!--endregion-->
+
+    <!--region core-->
+    <string name="button_view_error_retry">Retry</string>
+    <string name="label_row_empty_title">It\'s empty</string>
+    <string name="label_row_empty_message">No content found</string>
+    <string name="no_results_found">No results found</string>
+    <string name="button_like">Like</string>
+    <string name="button_rate">Rate</string>
+    <string name="button_understand">Understand</string>
+    <string name="button_activity_attachment_details_download">Download</string>
+    <string name="label_rate">%s Rate</string>
+    <string name="label_understand">%s Understand</string>
+    <string name="label_like">%s Like</string>
+    <string name="button_application_update">Update</string>
+    <string name="button_sheet_toolbar_filter">Filter</string>
+    <string name="please_wait">Please wait</string>
+    <string name="label_see_less">See Less</string>
+    <string name="label_see_more">See More</string>
+    <string name="label_chart_day_sunday">Sun</string>
+    <string name="label_chart_day_monday">Mon</string>
+    <string name="label_chart_day_tuesday">Tue</string>
+    <string name="label_chart_day_wednesday">Wed</string>
+    <string name="label_chart_day_thursday">Thu</string>
+    <string name="label_chart_day_friday">Fri</string>
+    <string name="label_chart_day_saturday">Sat</string>
+    <string name="there_is_no_application">There is no application to handle this type of attachments</string>
+    <string name="label_fragment_add_attachment_attach_file">Attach file</string>
+    <string name="label_fragment_edit_attendance_title">Attendance</string>
+    <string name="choose_option">Choose Option</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="close">Close</string>
+    <string name="send">Send</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="school">School</string>
+    <string name="the_sms_has_been_sent_successfully">The SMS has been sent successfully</string>
+    <string name="button_activity_attachment_details_save">Save offline</string>
+    <string name="toast_connection_error">You do not have an internet connection.</string>
+    <!--endregion-->
+
+    <!--region courses-->
+    <string name="button_row_assignment_action_view">View</string>
+    <string name="action_fragment_course_actions_bottom_sheet_assignments">Assignments</string>
+    <string name="action_fragment_course_actions_bottom_sheet_take_attendance">Take Attendance</string>
+    <string name="action_fragment_course_actions_bottom_sheet_manage_content">Manage content</string>
+    <string name="action_fragment_course_actions_bottom_sheet_add_behavior">Behaviors</string>
+    <string name="title_fragment_course_actions_bottom_sheet">Actions</string>
+    <string name="title_fragment_add_discussion_add">Add discussion</string>
+    <string name="title_fragment_add_attachment">Add attachment</string>
+    <string name="title_course_bar">Course details</string>
+    <!--endregion-->
+
+    <!--region data-->
+    <string name="err_network_timeout_title">Timeout</string>
+    <string name="err_network_timeout_message">You\'re being timed out due to late response from the server side, please try again.</string>
+    <string name="err_network_internet_title">No Internet Connection</string>
+    <string name="err_network_internet_message">Uh oh..Looks like you are no longer connected to the Internet, reconnect and try again.</string>
+    <string name="err_network_unexpected_title">Unexpected Error</string>
+    <string name="err_network_unexpected_message"> </string>
+    <string name="err_network_client_title">Client Error</string>
+    <string name="err_network_client_message">An error has occurred during request, please try again.</string>
+    <string name="err_network_server_title">Server Error</string>
+    <string name="err_network_server_message">The server encountered a temporary error and could not lead you to your destination, please try again.</string>
+    <string name="err_update_title">Update required</string>
+    <string name="err_update_message">You have an old version of Classera application, please update to be able to use the application</string>
+    <string name="correct_answer">The correct answer is %s</string>
+    <string name="button_row_assignment_action_not_attempted">Not Attempted</string>
+    <string name="err_network_server_user_blocked_title">Go to the website</string>
+    <string name="err_network_server_user_blocked_message">(Student Exam Mode) is active on your school. Please use Classera website</string>
+
+    //VcrStatuses
+    <string name="ended">Ended</string>
+    <string name="away">Away</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="live">Live</string>
+
+    //TripButtons
+    <string name="start_trip">Start trip</string>
+    <string name="end_trip">End trip</string>
+    <string name="trip_attendance">Trip attendance</string>
+    <string name="back_to_trip">Back to trip</string>
+
+    //TripsStatuses
+    <string name="ready">Ready</string>
+    <string name="later">Later</string>
+    <string name="later_message">Later</string>
+
+    //GuardiansTypes
+    <string name="all">All</string>
+    <string name="fathers">Fathers</string>
+    <string name="mothers">Mothers</string>
+    <string name="co_teacher">Co-Teacher</string>
+    <string name="recorded">Recorded</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <!--endregion-->
+
+    <!--region digital-library-->
+    <string name="title_menu_fragment_digital_library_search">Search…</string>
+    <string name="title_menu_fragment_digital_library_filter">Filter</string>
+    <string name="label_fragment_digital_library_empty_message">No results found</string>
+    <string name="course_title">Course Title</string>
+    <string name="lesson_title">Title</string>
+    <string name="toast_dlp_type">Sorry, this type is not supported on mobile, you can preview it on a web browser</string>
+    <!--endregion-->
+
+    <!--region discussion-rooms-->
+    <string name="title_menu_fragment_discussion_rooms_search">Search…</string>
+    <string name="label_row_discussion_rooms_title">Title:</string>
+    <string name="hint_discussion_add_comment">Write a comment…</string>
+    <string name="hint_fragment_add_discussion_room_title">Title</string>
+    <string name="hint_fragment_add_discussion_room_instructions">Instructions</string>
+    <string name="hint_fragment_add_discussion_room_students">Select students</string>
+    <string name="hint_fragment_add_discussion_room_lectures">Select lectures</string>
+    <string name="title_fragment_add_discussion_room_hide_comments">Hide comments</string>
+    <string name="title_button_fragment_add_discussion_room_create">Create room</string>
+    <string name="title_fragment_add_discussion_room">Create discussion room</string>
+
+    <string name="hint_fragment_add_post_text">Add new post</string>
+    <string name="title_button_fragment_add_post_create">Add post</string>
+    <string name="title_fragment_add_post_discussion_room">Add new post</string>
+
+
+    <string name="button_positive_delete_discussion_dialog">Delete</string>
+
+    <string name="button_negative_delete_discussion_dialog">Cancel</string>
+    <string name="title_delete_discussion_dialog">Delete comment</string>
+    <string name="message_delete_discussion_dialog">Are you sure you want to delete this comment?</string>
+
+    <string name="label_sort_by">Sort by</string>
+
+    <!-- Validation -->
+    <string name="validation_fragment_add_post_title">Please enter room title</string>
+    <string name="validation_fragment_add_post_instructions">Please enter room instructions</string>
+    <string name="validation_fragment_add_post_lectures">Please select room lectures</string>
+    <string name="validation_fragment_add_post_students">Please select room students</string>
+    <string name="validation_fragment_add_post_content">Please enter your post content</string>
+
+    <string name="title_menu_discussion_room_actions_edit">Edit</string>
+    <string name="title_menu_discussion_room_actions_delete">Delete</string>
+
+    <!--  Delete room dialog  -->
+    <string name="button_positive_delete_room_dialog">Delete</string>
+    <string name="button_negative_delete_room_dialog">Cancel</string>
+    <string name="title_delete_room_dialog">Delete room</string>
+    <string name="message_delete_room_dialog">Are you sure you want to delete the room?</string>
+
+    <!--  Delete post dialog  -->
+    <string name="button_positive_delete_post_dialog">Delete</string>
+    <string name="button_negative_delete_post_dialog">Cancel</string>
+    <string name="title_delete_post_dialog">Delete post</string>
+    <string name="message_delete_post_dialog">Are you sure you want to delete this post?</string>
+
+    <string name="title_approve_topics_comments">Approve and show all topics/comments</string>
+    <string name="title_disapprove_topics_comments">Disapprove and hide all topics/comments</string>
+    <string name="title_stop_topics_comments">Stop topics/comments</string>
+    <string name="title_open_topics_comments">Open topics/comments</string>
+
+    <string name="title_row_discussion_post_approved">Approved</string>
+    <string name="title_row_discussion_post_dis_approved">Disapproved</string>
+
+    <string name="title_row_discussion_post_approve_post">Approve</string>
+    <string name="title_row_discussion_post_dis_approve_post">Disapprove</string>
+    <string name="label_fragment_discussion_empty_message">No Data Found</string>
+    <string name="label_fragment_discussion_room_instructions_title">Room Instructions</string>
+    <string name="pd_name_save">Save</string>
+    <!--endregion-->
+
+    <!--region eportfolio-->
+    <string name="hint_fragment_e_portfolio_details_add_a_comment">Add a comment</string>
+    <string name="button_fragment_e_portfolio_details_view_attachment">View attachment</string>
+    <string name="title_menu_eportfolio_actions_edit">Edit</string>
+    <string name="title_menu_eportfolio_actions_delete">Delete</string>
+
+    <string name="button_positive_delete_eport_dialog">Delete</string>
+    <string name="button_negative_delete_eport_dialog">Cancel</string>
+    <string name="title_delete_eport_dialog">Delete!</string>
+    <string name="message_delete_eport_dialog">Are you sure you want to delete?</string>
+    <string name="hint_fragment_eport_title">Title</string>
+    <string name="hint_fragment_eport_post">Post</string>
+    <string name="label_fragment_eport_cover_file">Upload cover photo</string>
+    <string name="hint_fragment_eport_details">Details</string>
+    <string name="hint_fragment_eport_publish_date">Date</string>
+    <string name="hint_fragment_eport_courses">Course</string>
+    <string name="hint_fragment_eport_type">Type</string>
+    <string name="label_fragment_eport_attach_cover_image">Upload cover image</string>
+    <string name="button_fragment_eport_upload">Add</string>
+    <string name="hint_fragment_eport_sharing_level">Sharing Level</string>
+    <string name="validation_fragment_add_eport_title">please enter title</string>
+    <string name="validation_fragment_add_eport_description">please enter details</string>
+    <string name="validation_fragment_add_eport_post">please enter post</string>
+    <string name="text_fragment_eport_date_format">%d-%02d-%02d</string>
+    <string name="label_fragment_eport_attach_file">Upload File</string>
+    <string name="button_fragment_add_attachment_upload_eportfolio">Add</string>
+    <string name="save_eport_data">Save</string>
+    <string name="toast_fragment_eportfolio_details_no_attachment">There is no attachment</string>
+    <!--endregion-->
+
+    <!--region filter-->
+    <string name="label_row_filter_all">All</string>
+    <string name="title_menu_activity_filter_done">Done</string>
+    <string name="label_activity_filter">Filter</string>
+    <string name="label_row_filter_general">General - Uncategorized</string>
+    <!--endregion-->
+
+    <!--region home-->
+    <!-- Student -->
+    <string name="title_row_dashboard_shortcut_assessments">Assessments</string>
+    <string name="title_row_dashboard_shortcut_exam">Exams</string>
+    <string name="title_row_dashboard_shortcut_homework">Online Assignments</string>
+    <string name="title_row_dashboard_shortcut_video">Video lectures</string>
+    <string name="title_row_dashboard_shortcut_report">Report cards</string>
+    <string name="title_row_dashboard_shortcut_materials">Course Materials</string>
+    <string name="label_fragment_home_diamond">Diamond</string>
+    <string name="label_fragment_home_green">Green</string>
+
+
+    <!-- Teacher -->
+    <string name="title_row_dashboard_shortcut_take_assignments">Assignments</string>
+    <string name="title_row_dashboard_shortcut_take_attendance">Take attendance</string>
+    <string name="title_row_dashboard_shortcut_edit_attendance">Take attendance</string>
+    <string name="title_row_dashboard_shortcut_take_behaviors">Behaviors</string>
+
+    <!-- Common -->
+    <string name="title_row_dashboard_shortcut_discussion">Discussion rooms</string>
+    <string name="title_row_dashboard_shortcut_vcr">Virtual classrooms</string>
+    <string name="title_row_dashboard_shortcut_events">Academic calendar</string>
+    <string name="fragment_home_user_message">Hello</string>
+    <string name="title_fragment_home_toolbar">Dashboard</string>
+
+    <!-- Others -->
+    <string name="title_row_dashboard_shortcut_my_card">My Card</string>
+    <string name="title_row_dashboard_shortcut_announcements">Announcements</string>
+    <string name="title_row_dashboard_shortcut_Chat">Chat</string>
+    <string name="title_row_dashboard_shortcut_e_portfolio">E-Portfolio</string>
+    <string name="title_row_dashboard_shortcut_profile">Profile</string>
+    <string name="title_row_dashboard_shortcut_success_partners">C-Inspire</string>
+    <string name="title_row_dashboard_shortcut_trips">Trips</string>
+    <string name="title_row_dashboard_shortcut_students_bus_tracking">Students list</string>
+    <string name="title_row_dashboard_shortcut_creality_activities">AR Activities</string>
+
+    <string name="label_admin_home_fragment_content_statistics">CONTENT STATISTICS</string>
+    <string name="label_admin_home_fragment_school_active_section">MOST ACTIVE SECTIONS IN SCHOOL</string>
+    <string name="label_admin_home_fragment_school_active_users">MOST ACTIVE USERS IN SCHOOL</string>
+    <string name="label_admin_home_fragment_school_active_users_group">MOST ACTIVE USERS IN YOUR SCHOOL GROUP</string>
+    <string name="label_admin_home_fragment_all_school_active_users">MOST ACTIVE USERS IN ALL SCHOOLS</string>
+    <string name="label_admin_home_fragment_school_week_absences">ABSENCES THIS WEEK</string>
+    <string name="label_admin_home_fragment_school_ambassadors">SCHOOL AMBASSADORS</string>
+    <string name="label_admin_home_fragment_sms_usage">SMS USAGE</string>
+    <string name="label_admin_home_fragment_online_now">ONLINE NOW</string>
+    <string name="label_admin_home_level">Level: %s</string>
+    <string name="label_admin_home_stage">Stage: %s</string>
+    <string name="label_admin_home_average">Average: %s</string>
+    <string name="label_admin_home_score">Score: %s</string>
+    <string name="label_admin_home_school">School: %s</string>
+
+    <string name="label_admin_home_online_now_administrators">Administrators</string>
+    <string name="label_admin_home_online_now_parents">Parents</string>
+    <string name="label_admin_home_online_now_teachers">Teachers</string>
+    <string name="label_admin_home_online_now_students">Students</string>
+    <string name="label_admin_home_online_now_managers">Managers</string>
+    <string name="label_admin_home_online_now_advisers">Advisers</string>
+    <string name="label_admin_home_online_now_supervisors">Supervisors</string>
+    <string name="label_admin_home_online_now_kagan_coaches">Kagan Coaches</string>
+    <string name="label_admin_content_statistic_semester">Semester</string>
+    <string name="label_admin_content_statistic_semester_all">All</string>
+
+    <!-- Manager -->
+    <string name="title_row_dashboard_shortcut_survey">Surveys</string>
+    <string name="title_row_dashboard_shortcut_support">Support</string>
+
+    <!-- Teacher Supervisor -->
+    <string name="title_row_dashboard_shortcut_class_visits">Classroom Visits</string>
+
+    <string name="no_record_found">No records found</string>
+
+
+    <string name="join">Join</string>
+
+    <string name="you_do_not_have_active_student_accounts">You do not have active student accounts linked to your account. For additional information, please get in touch with your children\'s schools.</string>
+    <!--endregion-->
+
+    <!--region home-location-->
+    <string name="title_fragment_home_location">HomeLocation</string>
+    <string name="button_home_location_save">Save</string>
+    <string name="message_home_location_fragment_success_add_location">Your location has been saved successfully</string>
+    <string name="toast_w3w_not_found">Please add your location.</string>
+    <!--endregion-->
+
+    <!--region mailbox-->
+    <string name="title_menu_fragment_mailbox_search">Search</string>
+    <string name="title_menu_compose">Compose</string>
+    <string name="student_mail">Student: </string>
+    <string name="student_level">Level: </string>
+    <string name="student_section">Section: </string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="date">Date:</string>
+    <string name="priority">Priority:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message</string>
+    <string name="reply">Reply</string>
+    <string name="title_menu_recipient">Recipient</string>
+    <string name="role">Role</string>
+    <string name="search_recipient">Search for recipients</string>
+    <string name="title_menu_add">Add</string>
+    <string name="select_role">Select Role</string>
+    <string name="search">Search...</string>
+    <string name="hint_activity_recipient_school">Select School</string>
+    <string name="hint_activity_recipient_role">Select Role</string>
+    <string name="hint_activity_recipient_recipients">Select Recipients</string>
+    <string name="hint_activity_recipient_students">Select Students</string>
+    <string name="text_activity_recipient_send_students_group">Send to Students Group</string>
+    <string name="hint_activity_recipient_students_group">Select Students Group</string>
+    <string name="text_helper_select_school">Please select the school so you can select the role</string>
+    <string name="text_helper_select_role">Please select the role so you can select the recipients</string>
+    <string name="text_helper_select_recipients">Please select the recipients so you can send the mail</string>
+    <string name="text_helper_select_student">Please select the students</string>
+
+    <string name="inbox">Inbox</string>
+    <string name="outbox">Sent</string>
+    <string name="trash">Trash</string>
+    <string name="title_delete_mailboix_dialog">Delete!</string>
+    <string name="title_archive_mailboix_dialog">Archive!</string>
+    <string name="title_unarchive_mailboix_dialog">Unarchive!</string>
+
+    <string name="message_delete_mailbox_dialog">Are you sure do you want to delete this message?</string>
+    <string name="button_negative_delete_mailbox_dialog">Cancel</string>
+    <string name="title_menu_slect_recipient">Select Recipient</string>
+    <string name="message_fragment_mailbox_empty">No data found</string>
+
+    <string name="validation_activity_compose_subject">Subject is required</string>
+    <string name="validation_activity_compose_body">Body is required</string>
+    <string name="validation_activity_compose_recipient">You Have To Add Recipients</string>
+    <string name="validation_activity_compose_sent_msg">Message has been sent successfully</string>
+    <string name="message_sent">Message has been sent successfully</string>
+    <string name="message_deleted_successfully">Message was removed successfully</string>
+    <string name="message_restore_successfully">Message was restored successfully</string>
+    <string name="message_move_to_trash_successfully">Message move to trash successfully</string>
+    <string name="doc_attach">Documents</string>
+
+    <string name="draft">Drafts</string>
+    <string name="archived">Archive</string>
+
+    <string name="label_fragment_compost_message_attach_file">Upload Attachment</string>
+    <string name="title_menu_attachment">Upload Attachment</string>
+    <string name="title_attachment_name">Attachment:\n%s</string>
+    <string name="title_message_sending">Sending...</string>
+    <string name="title_message_gallery">Gallery</string>
+    <string name="item_menu_draft">Save as draft</string>
+    <string name="validation_activity_compose_draft_msg">The message has been saved</string>
+
+
+    <string name="title_restore_mailboix_dialog">Restore!</string>
+    <string name="title_restore_mailboix_dialog_btn">Restore</string>
+    <string name="message_restore_mailbox_dialog">Are you sure do you want to restore this message?</string>
+    <string name="message_delete_mailbox_dialog_permanently">Are you sure you want permanently delete this message?</string>
+    <string name="message_archived_mailbox_dialog">Are you sure you want to move this email to the archive?</string>
+    <string name="message_unarchived_mailbox_dialog">Are you sure you want to move this email back to inbox?</string>
+    <string name="message_email_archived_successfully">Email moved to Archive successfully.</string>
+    <string name="message_email_unarchived_successfully">Email moved back to inbox successfully.</string>
+
+    <string name="title_back_compose_bottom_sheet_title">Save this mail for later?</string>
+    <string name="title_back_compose_bottom_sheet_sub_title">The mail you started will be here when you return</string>
+    <string name="title_back_compose_bottom_sheet_save_draft">Save draft</string>
+    <string name="title_back_compose_bottom_sheet_delete_draft">Delete draft</string>
+    <string name="title_back_compose_bottom_sheet_continue_sharing">Continue writing</string>
+    <string name="more_than_one">+ more</string>
+    <string name="no_schools">Sorry, there are no schools associated with this role yet.</string>
+    <string name="no_roles">Sorry, there are no roles associated with this school yet.</string>
+    <string name="no_recipients">Sorry, there are no recipients associated with this role yet.</string>
+    <string name="no_childs">Sorry, there are no students associated with this guardian yet.</string>
+    <string name="no_students_groups">Sorry, there are no student groups created yet.</string>
+    <string name="students_list_bottom_sheet_title">Students\' List</string>
+
+
+    <!--endregion-->
+
+    <!--region main-->
+    <string name="title_menu_activity_main_bottom_navigation_view_digital_library">Public library</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_mail">Mailbox</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_weekly_plan">Weekly Plan</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_home">Home</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_courses">Courses</string>
+
+    <string name="label_navigation_activity_main_mail">Mailbox</string>
+    <string name="label_navigation_activity_main_digital_library">Public library</string>
+    <string name="label_navigation_activity_main_courses">Courses</string>
+    <string name="label_navigation_activity_main_home">Home</string>
+    <string name="label_navigation_activity_main_notification">Notification</string>
+
+    <string name="title_menu_activity_main_navigation_view_grades">Grades</string>
+    <string name="title_menu_activity_main_navigation_view_assignments">Online Assignments</string>
+    <string name="title_menu_activity_main_navigation_view_courses_materials">Course Materials</string>
+    <string name="title_menu_activity_main_navigation_view_exams">Exams</string>
+    <string name="title_menu_activity_main_navigation_view_video_lecture">Video Lectures</string>
+    <string name="title_menu_activity_main_navigation_view_mailbox">Mailbox</string>
+    <string name="title_menu_activity_main_navigation_view_send_sms">Send SMS</string>
+    <string name="title_menu_activity_main_navigation_view_select_recipient">Select Recipient</string>
+    <string name="title_menu_activity_main_navigation_view_sms_report">SMS report</string>
+    <string name="title_menu_activity_main_navigation_view_assessments">Assessments</string>
+    <string name="title_menu_activity_main_navigation_view_discussion_rooms">Discussion Rooms</string>
+    <string name="title_menu_activity_main_navigation_view_weekly_plan">Weekly Plan</string>
+    <string name="title_menu_activity_main_navigation_view_discipline_and_behavior">Discipline and Behavior</string>
+    <string name="title_menu_activity_main_navigation_view_calendar">Academic Calendar</string>
+    <string name="title_menu_activity_main_navigation_view_schedule">Schedule</string>
+    <string name="title_menu_activity_main_navigation_view_absences">Absences</string>
+    <string name="title_menu_activity_main_navigation_view_virtual_class_room">Virtual Classroom</string>
+    <string name="title_menu_activity_main_navigation_view_courses">Courses</string>
+    <string name="title_menu_activity_main_navigation_view_home_location">Home Location</string>
+    <string name="title_menu_activity_main_navigation_view_report_cards">Report Cards</string>
+    <string name="title_menu_activity_main_navigation_view_my_card">My Card</string>
+    <string name="title_menu_activity_main_navigation_view_announcements">Announcements</string>
+    <string name="title_menu_activity_main_navigation_view_chat">Chat</string>
+    <string name="title_menu_activity_main_navigation_view_ePortfolios">E-Portfolios</string>
+    <string name="title_menu_activity_main_navigation_view_success_partners">C-Inspire</string>
+    <string name="title_menu_activity_main_navigation_view_program_academy">Enrichment programs academy</string>
+    <string name="title_menu_activity_main_navigation_view_settings">Settings</string>
+    <string name="title_menu_activity_main_navigation_view_logout">Logout</string>
+    <string name="title_menu_activity_main_navigation_view_important_links">Important Links</string>
+    <string name="title_menu_activity_main_navigation_view_online_financial_claims">Financial Claims</string>
+    <string name="title_menu_activity_main_navigation_view_online_claims_invoices">Payments</string>
+    <string name="title_menu_activity_main_navigation_view_canteens">Canteens</string>
+    <string name="title_menu_activity_main_navigation_view_delivered_orders">Delivered Orders</string>
+    <string name="title_menu_activity_main_navigation_view_fees_details">Fees Details</string>
+    <string name="title_menu_activity_main_navigation_view_books">My Books</string>
+    <string name="title_menu_activity_main_navigation_view_activites">AR Activities</string>
+    <string name="title_menu_activity_main_navigation_view_cpay">C-Pay</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_partner_library">Teleschool Library</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_teleschool">Teleschool</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_training_courses">Training Courses</string>
+    <string name="title_menu_activity_main_navigation_view_in_class_activities">In Class Activities</string>
+
+    <string name="assessment_details">Assessment Details</string>
+
+    <string name="title_menu_activity_main_filter">Filter</string>
+    <string name="searchable_activity_main_hint">Search</string>
+
+    <string name="title_menu_activity_main_navigation_view_profile">Profile</string>
+    <string name="title_menu_activity_main_bottom_navigation_view_roles">Role</string>
+    <string name="title_menu_activity_main_navigation_view_schools">School</string>
+    <string name="title_menu_activity_main_navigation_view_semester">Semester</string>
+    <string name="title_menu_activity_main_navigation_view_child_list">Students List</string>
+    <string name="title_menu_activity_main_navigation_view_student_contracts">Student Contracts</string>
+
+    <string name="title_menu_activity_main_navigation_view_guardian_call_student">Call Student</string>
+    <string name="title_menu_activity_main_navigation_view_driver_call_student">Call Student</string>
+    <string name="title_menu_activity_main_navigation_view_support">Support</string>
+    <string name="title_menu_activity_main_navigation_view_surveys">Surveys</string>
+    <string name="title_menu_activity_main_navigation_view_survey">Survey</string>
+    <string name="title_menu_activity_main_navigation_view_class_room_visits">Classroom visits</string>
+    <string name="title_menu_activity_main_navigation_view_add_class_room_visits">Add classroom visit</string>
+    <string name="parent_child_list">Students List</string>
+    <string name="not_installed">App not installed, Please download Inspire App from Google play.</string>
+    <string name="bottom_sheet_logout_title">Are you sure you want to logout?</string>
+    <string name="button_bottom_logout_submit">Logout</string>
+    <string name="please_select_child">Please select a child</string>
+
+    <string name="cannot_upload_file">Failed To Upload!</string>
+    <string name="search_here">Search here</string>
+
+    <string name="title_menu_activity_main_navigation_view_assignments_and_exams">Assignments</string>
+    <string name="title_menu_activity_main_navigation_view_offline_videos">Saved Videos</string>
+    <!--endregion-->
+
+    <!--region mycard-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--endregion-->
+
+    <!--region navigation-->
+    <string name="title_menu_activity_main_navigation_support">Support</string>
+    <string name="title_fragment_switch_roles">Switch Role</string>
+    <string name="title_fragment_switch_schools">Schools</string>
+    <string name="title_fragment_switch_semster">Semester</string>
+    <string name="title_menu_activity_main_navigation_settings">Settings</string>
+    <string name="label_navigation_fragment_take_attendance">Take attendance</string>
+    <string name="create_vcr">Create new vcr</string>
+    <string name="title_fragment_add_eportfolio">New portfolio</string>
+    <string name="title_fragment_add_assignment">Add Assignment</string>
+    <string name="title_fragment_edit_assignment">Edit Assignment</string>
+    <string name="title_fragment_assignment_details">Assignment Details</string>
+    <string name="title_fragment_add_support">Add Ticket</string>
+    <string name="title_menu_fragment_main_navigation_notification_list">Notification</string>
+    <string name="title_menu_activity_main_navigation_view_add_discipline_and_behavior">Add Behavior</string>
+    <!--endregion-->
+
+    <!--region notification-->
+    <string name="new_notification_label">new\u0020</string>
+    <!--endregion-->
+
+    <!--region notigation-->
+    <!--endregion-->
+
+    <!--region offlinevideos-->
+    <string name="label_fragment_offline_videos_empty_message">You have no saved videos</string>
+    <string name="label_fragment_offline_videos_videos"> Videos</string>
+    <string name="label_fragment_offline_videos_video"> Video</string>
+    <string name="label_fragment_offline_videos_delete_all">Delete All</string>
+    <string name="title_delete_bottom_sheet">Are you sure you want to delete this video?</string>
+    <string name="title_delete_bottom_sheet_all">Are you sure you want to delete all videos?</string>
+    <string name="label_button_delete_bottom_sheet">Delete</string>
+    <string name="toast_deleted">Deleted</string>
+    <!--endregion-->
+
+    <!--region profile-->
+    <string name="p_info">Personal Information</string>
+    <string name="skills">Interests and skills</string>
+    <string name="languages">Languages</string>
+    <string name="interests">Interests</string>
+    <string name="submit">Submit</string>
+    <string name="proficiency">Proficiency</string>
+    <string name="description">Description</string>
+    <string name="edit_interest">Edit Interest</string>
+    <string name="interest">Interest</string>
+    <string name="add_interest">Add Interest</string>
+    <string name="skill">Skill</string>
+    <string name="edit_skill">Edit Skill</string>
+    <string name="add_skill">Add Skill</string>
+    <string name="language">Language</string>
+    <string name="edit_language">Edit Language</string>
+    <string name="add_language">Add Language</string>
+    <string name="first_name">First Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="grandfather_name">Grandfather Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="contact">Contact Information</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="city_of_birth">City of Birth</string>
+    <string name="about_me">About Me</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="country">Countries</string>
+    <string name="city">City</string>
+    <string name="education">Education</string>
+    <string name="add_education">Add Education</string>
+    <string name="edit_education">Edit Education</string>
+    <string name="field_of_study">Field of Study</string>
+    <string name="degree">Degree</string>
+    <string name="confirm_delete">Are you sure you want to delete it?</string>
+    <string name="discard">Yes</string>
+    <string name="public_profile">Public Profile</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="linkedin">Linkedin</string>
+
+    <!-- validation -->
+    <string name="validation_bottom_sheet_add_education_from_date">Please enter start date</string>
+    <string name="validation_bottom_sheet_add_education_to_date">Please enter end date</string>
+    <string name="validation_bottom_sheet_add_education_field">Please enter field</string>
+    <string name="validation_bottom_sheet_add_education_description">Please enter description</string>
+    <string name="validation_bottom_sheet_add_education_school">Please enter school</string>
+    <string name="validation_bottom_sheet_add_education_degree">Please enter degree</string>
+    <string name="validation_bottom_sheet_add_education_country">Please enter country</string>
+    <string name="validation_bottom_sheet_add_education_city">Please enter city</string>
+    <string name="validation_bottom_sheet_add_skill_skill">Please enter skill</string>
+    <string name="validation_bottom_sheet_add_skill_proficiency">Please enter proficiency</string>
+    <string name="err_phone_number">Please enter valid phone number</string>
+    <string name="err_email">Please enter valid email</string>
+    <string name="err_personal_validation">Some required fields are empty</string>
+    <string name="personal_edited_successfully">Profile has been saved successfully</string>
+    <string name="saved">Saved successfully</string>
+    <string name="edited">Edited successfully</string>
+    <string name="title_tab_experiences">Experiences</string>
+    <string name="bottom_sheet_add_experiences_title_add">Add Experience</string>
+    <string name="bottom_sheet_add_experiences_title_edit">Edit Experience</string>
+    <string name="validation_bottom_sheet_add_experience_job_title">Please enter job title</string>
+    <string name="validation_bottom_sheet_add_experience_job_type">Please enter job type</string>
+    <string name="validation_bottom_sheet_add_experience_company_name">Please enter company name</string>
+    <string name="validation_bottom_sheet_add_experience_description">Please enter description</string>
+    <string name="validation_bottom_sheet_add_experience_start_date">Please enter the start date</string>
+    <string name="validation_bottom_sheet_add_experience_end_date">Please enter the end date</string>
+
+    <string name="hint_bottom_sheet_add_experience_job_title">Job title</string>
+    <string name="hint_bottom_sheet_add_experience_job_type">Job type</string>
+    <string name="hint_bottom_sheet_add_experience_company_name">Company name</string>
+    <string name="hint_bottom_sheet_add_experience_description">Description</string>
+    <string name="hint_bottom_sheet_add_experience_start_date">Start date</string>
+    <string name="hint_bottom_sheet_add_experience_end_date">End date</string>
+    <string name="toast_bottom_sheet_add_experience_start_befor_end">The start date must be before the end date</string>
+    <string name="text_fragment_add_experience_date_format">%d-%02d-%02d</string>
+    <string name="text_education_list_row_item_comma">,</string>
+
+    <!--endregion-->
+
+    <!--region reportcards-->
+    <string name="time">Time:</string>
+    <!--endregion-->
+
+    <!--region schedule-->
+    <string name="label_row_schedule_no_classes_today">No classes today</string>
+    <!--endregion-->
+
+    <!--region selection-->
+    <string name="label_row_multi_selection_all">All</string>
+    <!--endregion-->
+
+    <!--region settings-->
+    <string name="title_fragment_settings_notifications">Notifications</string>
+    <string name="summery_fragment_settings_notifications">For enable/disable notifications</string>
+    <string name="summery_fragment_settings_language">Change application language</string>
+    <string name="title_fragment_settings_language">Language</string>
+    <!--endregion-->
+
+    <!--region sms-->
+    <string name="validation_fragment_add_school">Please select school</string>
+    <string name="validation_fragment_add_recipient">Please select recipient</string>
+    <string name="validation_fragment_add_template">Please select template</string>
+    <string name="validation_fragment_add_message">Enter your message</string>
+
+    <string name="from_">From</string>
+    <string name="to_">To</string>
+    <string name="template">Template</string>
+    <string name="type_your_message">Type your message</string>
+    <string name="select_school">Select School</string>
+    <string name="select_template">Select Template</string>
+    <string name="search_">Search</string>
+    <string name="done">Done</string>
+    <string name="copy_to_guardians">Copy to guardians</string>
+    <string name="sms_report">SMS Report</string>
+    <string name="sender">Sender</string>
+    <string name="recipient">Recipient</string>
+    <string name="recipient_mobile">Recipient mobile</string>
+    <string name="units">Units</string>
+    <string name="type">Type</string>
+    <string name="status">Status</string>
+    <string name="filter">Filter</string>
+    <string name="body">Body</string>
+    <string name="advanced">Advanced</string>
+    <string name="select_all">Select all</string>
+    <string name="un_select_all">Unselect all</string>
+    <string name="clear_filter">Clear filter</string>
+    <!--endregion-->
+
+    <!--region splash-->
+    <string name="title_update_application_dialog">Update application</string>
+    <string name="message_update_application_dialog">Please update your app</string>
+    <string name="button_positive_update_application_dialog">Update now</string>
+    <string name="button_negative_update_application_dialog">Not now</string>
+    <string name="alert_message_graduated_student">Sorry, you are not allowed to access the app</string>
+    <!--endregion-->
+
+    <!--region storage-->
+    <string name="title_storage_permission">Storage permission</string>
+    <string name="message_storage_permission_view_attachment">In order to view the attachment you should allow Classera to access your storage</string>
+    <string name="allow">Allow</string>
+    <string name="toast_saved_successfully">The video has been saved successfully.</string>
+    <!--endregion-->
+
+    <!--region support-->
+    <string name="title_row_suport_date">Created date:</string>
+    <string name="title_row_support_type">Status:</string>
+    <string name="title_row_support_no_of_comments">No of Comments</string>
+    <string name="title_row_support_description">Description</string>
+    <string name="hint_fragment_support_details_add_a_comment">Add comment...</string>
+    <string name="ticket_title">Title</string>
+    <string name="download_attachment">Download Attachment</string>
+    <string name="label_fragment_add_ticket_attach_file">Upload attachment</string>
+    <string name="hint_fragment_add_ticket_type">Type</string>
+    <string name="hint_fragment_add_ticket_priority">Priority</string>
+    <string name="hint_fragment_add_ticket_module">Module</string>
+    <string name="text_fragment_add_support_ticket_general_problem">General Problem</string>
+    <string name="text_fragment_add_support_ticket_related_to_school">Related to school</string>
+    <string name="hint_fragment_add_support_ticket_title">Subject</string>
+    <string name="hint_fragment_add_support_ticket_problem_link">Problem link</string>
+    <string name="hint_fragment_add_support_ticket_description">Description</string>
+    <string name="button_fragment_add_support_ticket_upload">Add</string>
+
+    <string name="validation_fragment_add_support_ticket_title">Please enter title</string>
+    <string name="validation_fragment_add_support_ticket_body">Please enter body</string>
+    <string name="validation_fragment_add_support_ticket_type">Please choose type</string>
+    <string name="validation_fragment_add_support_ticket_module">Please choose module</string>
+    <string name="please_add_general_problem">You should select as a general problem</string>
+    <string name="hint_fragment_add_ticket_schools">Schools</string>
+    <string name="no_comments_found">No comments yet</string>
+    <string name="label_section_support_details_ticket_id">Ticket Id:</string>
+    <string name="label_section_support_details_team">Team:</string>
+    <string name="text_view_support_details_section_ticket_priority">Priority:</string>
+    <string name="text_view_support_details_section_ticket_module">Ticket Module:</string>
+    <string name="text_view_support_details_section_ticket_type">Ticket Type:</string>
+    <string name="text_view_support_details_section_ticket_school">School:</string>
+    <string name="text_view_support_details_section_ticket_problem_link">Problem Link:</string>
+    <string name="text_view_support_details_section_ticket_attachments">Attachment:</string>
+    <string name="text_view_support_details_section_label_title">Ticket Info</string>
+    <string name="button_support_details_download_attachments">Download Attachment</string>
+    <string name="validation_fragment_add_support_invalid_url">Invalid problem link</string>
+    <string name="title_menu_fragment_support_search">Search..</string>
+    <string name="toast_fragment_add_support_ticket_success_add_ticket_msg">The ticket is created successfully</string>
+    <string name="toast_fragment_add_support_ticket_error_add_ticket_msg">Sorry , you have exceeded the limit of the allowed size</string>
+    <!--endregion-->
+
+    <!--region surveys-->
+    <string name="title_menu_fragment_surveys_search">Search</string>
+    <!--endregion-->
+
+    <!--region switchroles-->
+    <string name="title_menu_fragment_switch_roles_search">Search..</string>
+    <!--endregion-->
+
+    <!--region switchschools-->
+    <string name="button_row_switch_school_sub_schools">%d Sub schools</string>
+    <string name="title_schools_fragment_change_school_confirmation">Change school?</string>
+    <string name="message_schools_fragment_change_school_confirmation">Are you sure you want to change to %s?</string>
+    <string name="title_menu_fragment_switch_school_search">Search...</string>
+    <!--endregion-->
+
+    <!--region switchsemester-->
+    <string name="title_menu_fragment_switch_semester_search">Search..</string>
+    <!--endregion-->
+
+    <!--region utils-->
+    <!--endregion-->
+
+    <!--region vcr-->
+    <string name="title_vcr_fragment_search">Search</string>
+    <string name="title_vcr_fragment_filter_upcoming">Upcoming</string>
+    <string name="title_vcr_fragment_filter_passed">Passed</string>
+    <string name="fragment_filter_upcoming">Upcoming</string>
+    <string name="fragment_filter_passed">Passed</string>
+    <string name="title_vcr_row_title_vcr">Virtual Classrooms &#38; Meetings</string>
+    <string name="title_vcr_row_lecture">Lecture</string>
+    <string name="title_vcr_row_time">Time</string>
+    <string name="title_vcr_row_durations">Duration</string>
+    <string name="label_button_row_vcr_start">Start</string>
+    <string name="label_button_vcr_confirm_bottom_launch">Launch</string>
+    <string name="label_button_vcr_confirm_bottom_view">View</string>
+    <string name="title_student_vcr_bottom_sheet">Are you sure you want to start VCR?</string>
+    <string name="title_student_vcr_bottom_sheet_view">Are you sure you want to view VCR?</string>
+    <string name="label_button_bottom_sheet_vcr_more_options_edit">Edit</string>
+    <string name="label_button_bottom_sheet_vcr_more_options_delete">Delete</string>
+    <string name="title_bottom_sheet_delete_vcr">Are you sure you want to delete this VCR ?</string>
+    <string name="label_button_teacher_vcr_delete">Delete</string>
+    <string name="title_fragment_edit_vcr">Edit VCR</string>
+    <string name="hint_fragment_edit_vcr_title">Title</string>
+    <string name="hint_fragment_edit_vcr_lectures">Lectures</string>
+    <string name="hint_fragment_edit_vcr_share_with">Share with</string>
+    <string name="hint_fragment_edit_vcr_starting_time">Starting time</string>
+    <string name="hint_fragment_edit_vcr_duration">Duration</string>
+    <string name="label_fragment_edit_vcr_save">Save</string>
+    <string name="title_menu_vcr_teacher_actions_delete">Delete</string>
+    <string name="title_menu_vcr_teacher_actions_edit">Edit</string>
+
+    <!--  Delete VCR dialog  -->
+    <string name="button_positive_delete_vcr_dialog">Delete</string>
+    <string name="button_negative_delete_vcr_dialog">Cancel</string>
+    <string name="title_delete_vcr_dialog">Delete VCR</string>
+    <string name="message_delete_vcr_dialog">Are you sure you want to delete %s VCR?</string>
+
+    <!--  Add/Edit VCR  -->
+    <string name="hint_fragment_add_vcr_title">Title</string>
+    <string name="hint_fragment_add_vcr_starting_time">Starting time</string>
+    <string name="hint_fragment_add_vcr_duration">Duration</string>
+    <string name="label_fragment_add_vcr_minutes">%d Minutes</string>
+    <string name="button_fragment_add_vcr_save">Save</string>
+    <string name="hint_fragment_add_vcr_lectures">Lectures</string>
+    <string name="hint_fragment_add_vcr_student_group">Student Groups</string>
+    <string name="hint_fragment_add_vcr_sharing_status">Sharing status</string>
+    <string name="hint_fragment_add_vcr_date">Date</string>
+    <string name="title_fragment_add_vcr_add">Add VCR</string>
+    <string name="title_fragment_add_vcr_edit">Edit VCR</string>
+    <string name="hint_fragment_add_vcr_starting_date">Starting date</string>
+    <string name="text_fragment_add_vcr_time_format">%02d:%02d</string>
+    <string name="text_fragment_add_vcr_date_format">%d-%02d-%02d</string>
+    <string name="hint_fragment_add_minutes_before_vcr">5 minutes access before VCR start</string>
+    <string name="hint_fragment_add_vcr_weekly_repeat">Weekly repeat</string>
+    <string name="message_fragment_add_vcr_success_message">The Vcr has been added</string>
+
+    <string name="title_vcr_row_courses">Course</string>
+    <string name="title_vcr_row_min">Min</string>
+
+    <string name="validation_fragment_add_vcr_title">Please enter title</string>
+    <string name="validation_fragment_add_vcr_starting_time">Please select starting time</string>
+    <string name="validation_fragment_add_vcr_starting_date">Please select starting date</string>
+    <string name="validation_fragment_add_vcr_lectures">Please select lectures</string>
+    <string name="validation_fragment_add_vcr_duration">Please select duration</string>
+    <string name="validation_fragment_add_vcr_date">Please select date</string>
+    <string name="validation_fragment_add_vcr_sharing_status">Please select sharing status</string>
+    <string name="validation_fragment_add_vcr_repeat_until">Please select repeat until</string>
+    <string name="validation_fragment_add_vcr_external_link">Please enter external link</string>
+    <string name="validation_fragment_add_vcr_zoom_link">Please enter zoom link</string>
+    <string name="validation_fragment_add_vcr_passcode">Please enter passcode</string>
+    <string name="title_fragment_add_vcr_bottom_sheet">Create new vcr</string>
+    <string name="action_fragment_add_vcr_bottom_sheet_wiziq">Classic VCR</string>
+    <string name="action_fragment_add_vcr_bottom_sheet_zoom">Microsoft Teams</string>
+    <string name="error_user_not_have_an_account">Please go to web and create an account</string>
+
+    <string name="text_fragment_add_vcr_allow_start_before_time">Students can only launch the class 5 minutes before the class starting time</string>
+
+    <string name="validation_fragment_unsupported_edit_vcr">Sorry, you can only edit this type of virtual classroom on web application</string>
+    <string name="validation_fragment_unsupported_delete_vcr">Sorry, you can only delete this type of virtual classroom on web application</string>
+
+    <string name="create_your_virtual_classroom">Create your Virtual Classroom</string>
+    <string name="select_from_the_list">Select from the list</string>
+    <string name="select_teacher">Select Teacher</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_a_duration">Select a duration</string>
+    <string name="from_time">From</string>
+    <string name="to_time">To</string>
+    <string name="choose_time_slot">Choose Time Slot</string>
+    <string name="choose_preparation">Choose Preparation</string>
+    <string name="choose_duration">Choose Duration</string>
+    <string name="choose_share_with">Choose Share with</string>
+    <string name="time_slot">Time Slot</string>
+    <string name="preparation">Preparation</string>
+    <string name="apply">Apply</string>
+    <string name="virtual_classroom_title">Virtual Classroom title</string>
+    <string name="external_link">External link</string>
+    <string name="zoom_link">Zoom link</string>
+    <string name="repeat_until">Repeat Until</string>
+    <string name="passcode">Passcode</string>
+    <string name="recurring">Recurring</string>
+
+    //ShareWithStatus
+    <item name="none" type="string">None</item>
+    <item name="current_school" type="string">Current School</item>
+    <item name="whole_community" type="string">Whole Community</item>
+
+
+    <string name="selected">Selected</string>
+    <string name="minute">Minute</string>
+    <string name="message_fragment_vcr_success_message">Success</string>
+
+    <string name="are_you_sure_you_want_to_start_vcr">Are you sure you want to start VCR?</string>
+    <string name="this_is_your_zoom_virtual_class_passcode">This is your Zoom virtual class passcode :</string>
+    <string name="copy_and_continue">Copy and continue</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="deselect_all">Deselect all</string>
+
+    <string name="please_select_the_lecture">Please select the lecture first</string>
+    <!--endregion-->
+
+    <!--region weekly-plan-->
+    <string name="no_events_added">No plans for this day</string>
+    <string name="weekly_assignments">Assignments</string>
+    <string name="weekly_exams">Exams</string>
+    <string name="weekly_attachments">Attachments</string>
+    <string name="weekly_comments">Comments</string>
+    <string name="weekly_comments_bottom_sheet">Lesson Comments</string>
+    <string name="weekly_attachments_bottom_sheet">Course Attachments</string>
+    <string name="weekly_times_bottom_sheet">Course Time</string>
+    <string name="weekly_exams_bottom_sheet">Course Exams</string>
+    <string name="weekly_assignments_bottom_sheet">Course Assignments</string>
+    <string name="more_than_three">+3 more</string>
+    <string name="empty"> </string>
+    <string name="weekly_sections_bottom_sheet">Course Sections</string>
+    <string name="weekly_objective_bottom_sheet">Course Objective</string>
+    <string name="weekly_objectives">Objectives</string>
+
+    <!--endregion-->
+
+    <string name="try_again_later">Try again later</string>
+
+    <string name="You_are_using_a_weak_password">You are using a weak password!</string>
+
+    <string name="changeـtheـpassword">Change the password</string>
+
+    <string name="remind_me_later">Remind me later</string>
+
+    <string name="hint_login_activity_section">Section</string>
+    <string name="error_login_activity_select_postion">Please select section</string>
+
+    <!--region Bus tracking-->
+    <string name="title_menu_activity_main_navigation_view_live_map">Live tracking</string>
+    <string name="title_menu_activity_main_navigation_view_trips_list">Trips list</string>
+    <string name="google_api_key">AIzaSyArn98Uzs765aW8LS5XvBnO4ygj2poZiNI</string>
+    <string name="title_end_trip_button">End Trip</string>
+    <string name="title_menu_fragment_trips_stds_filter">Filter</string>
+    <string name="title_menu_activity_main_navigation_view_trips_stds">Trips</string>
+    <string name="title_menu_activity_main_navigation_view_trips_stds_log">Trip logs</string>
+    <string name="title_row_dashboard_shortcut_live_tracking">Live Tracking</string>
+    <string name="title_trip_home">Home</string>
+    <string name="title_trip_school">School</string>
+    <string name="title_bus_no">Bus no. </string>
+    <string name="title_menu_activity_main_navigation_view_trips">Trips</string>
+    <string name="toast_no_live_trips">There is no live  trip now</string>
+    <string name="title_no_comment">No comment</string>
+    <string name="location_msg">Disabling the device location will prevent guardians to track the bus.</string>
+    <string name="guardian_location_msg">Live tracking is not available now.</string>
+    <string name="deny_location_permission_msg">We will use your location to Livestream the bus route to the guardians throughout the trip</string>
+
+    <!--endregion-->
+
+    <string name="score">Score</string>
+    <string name="title_card_number">Card Number</string>
+
+    <string name="no_student_has_been_added">No student has been added to this trip yet!</string>
+    <string name="do_you_wish_to_start_this_trip">Do you wish to start this trip?</string>
+    <string name="do_you_wish_to_end_this_trip">Do you wish to end this trip?</string>
+    <string name="rate_the_application_and_get">Rate the application and get $ points!</string>
+    <string name="rate_on_google_play">Rate on Google play</string>
+
+    <string name="oh_no">Oh, no!</string>
+    <string name="we_like_you_too">We like you too!</string>
+    <string name="you_have_just_gained_50_points">Congratulation! \n\n You\'ve just gained 50 points The points will be added to your score within 24 hours</string>
+
+    <string name="because_we_value_your">Because we value your feedback, we would appreciate it if you shared your Classera app experience with us.</string>
+
+    <string name="verification_code">Verification Code</string>
+    <string name="submit_verification_code">Submit</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="didnt_get_the_code">Didn\'t get the code?</string>
+
+    <string name="watched_duration">Mark videos as viewed after mins</string>
+
+    <!-- user role region -->
+    <string name="administrator">Administrator</string>
+    <string name="school_admin">School Admin</string>
+    <string name="guardian">Guardian</string>
+    <string name="teacher">Teacher</string>
+    <string name="other_staff">OtherStaff</string>
+    <string name="student">Student</string>
+    <string name="accountant">Accountant</string>
+    <string name="manager">Manager</string>
+    <string name="adviser">Adviser</string>
+    <string name="financial_admin">Financial Admin</string>
+    <string name="teacher_supervisor">Teacher Supervisor</string>
+    <string name="floor_supervisor">Floor Supervisor</string>
+    <string name="kagan_coach">Kagan Coach</string>
+    <string name="admission_officer">Admission Officer</string>
+    <string name="success_partner">Success Partner</string>
+    <string name="activity_officer">Activity Officer</string>
+    <string name="employee">Employee</string>
+    <string name="school_leader">School Leader</string>
+    <string name="director_of_supervision_office">Director of Supervision Office</string>
+    <string name="personal_driver">Personal Driver</string>
+    <string name="clinic_officer">Clinic Officer</string>
+    <string name="graduated_student">Graduated Student</string>
+    <string name="canteen_officer">Canteen Officer</string>
+    <string name="student_affairs_officer">Student Affairs Officer</string>
+    <string name="managers_supervisor">Managers supervisor</string>
+    <string name="education_partner">Education Partner</string>
+    <string name="permission_officer">Permission officer</string>
+    <string name="school_owner">School Owner</string>
+    <string name="exams_manager">Exams Manager</string>
+    <string name="exams_supervisor">Exams Supervisor</string>
+    <string name="certificates_printer">Certificates Printer</string>
+    <string name="exam_member">Exam Member</string>
+    <string name="store_owner">Store Owner</string>
+    <string name="control_admin">Control Admin</string>
+    <string name="bus_supervisor">Bus Supervisor</string>
+    <string name="unknown">Unknown</string>
+    <string name="general">General</string>
+    <!-- end region -->
+
+    <string name="in">in</string>
+    <string name="rate">Rate: </string>
+
+    <string name="hide_empty_time_slots">Hide Empty Timeslots</string>
+    <string name="level">Level</string>
+
+    <string name="view_profile">View profile</string>
+
+    <string name="back_to_my_account">Back to my account</string>
+
+    <!-- Books region -->
+
+
+    <string name="you_dont_have_a_card_yet">You don\'t have a card yet</string>
+
+    <!-- Payments region -->
+    <string name="total_amount">Total amount</string>
+    <string name="due_amount">Due amount</string>
+    <string name="discount_amount">Discount amount: </string>
+    <string name="tax_amount">Tax amount: </string>
+    <string name="total">Total</string>
+    <string name="continue_">Continue</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="pay_now">Pay now</string>
+    <string name="summary">Summary</string>
+    <string name="payment_amount">Payment Amount</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_id_label">Student ID %s</string>
+    <string name="invoice_id_label">Invoice ID %s</string>
+    <string name="expired">Expired</string>
+    <string name="min">Min</string>
+    <string name="invoices">Invoices</string>
+    <string name="CPay">C-Pay</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="invoice_type">Invoice Type</string>
+    <string name="paid">Paid</string>
+    <string name="payment_completed_successfully">Payment completed successfully</string>
+    <!-- end region -->
+
+    <string name="student_not_active">Not Active</string>
+    <string name="no_linked_students">Sorry, there are no students associated with this guardian yet.</string>
+    <string name="empty_message_no_invoices">There are no invoices issued for this student.</string>
+    <string name="error_no_invoises_selected">Please select the desired invoices to be paid</string>
+    <string name="title_playback_speed">Playback Speed</string>
+    <string name="video_speed_2x">2x</string>
+    <string name="video_speed_1_75x">1.75x</string>
+    <string name="video_speed_1_5x">1.5x</string>
+    <string name="video_speed_1_25x">1.25x</string>
+    <string name="video_speed_1x">1x</string>
+    <string name="video_speed_0_75x">0.75x</string>
+    <string name="video_speed_0_5x">0.5x</string>
+    <string name="video_speed_0_25x">0.25x</string>
+    <string name="video_speed_postfix">x</string>
+
+    <string name="select_grade">Select Grade</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="select_chapter">Select Chapter</string>
+
+    <string name="grade">Grade</string>
+
+    <string name="register_as_student">Register As Student</string>
+    <string name="register_as_teacher">Register As Teacher</string>
+
+    <string name="published">Published</string>
+    <string name="unpublished">Un Published</string>
+    <string name="previous_courses_content">Previous Courses Content</string>
+    <string name="current_courses_content">Current Courses Content</string>
+
+
+    <string name="next_question">Next</string>
+
+    <string name="in_class_activity_submitted">The in class activity has been submitted successfully</string>
+
+
+    <string name="start_activity">Start Activity</string>
+
+
+    <string name="you_are_offline_connect_to_internet">You are offline. Please connect to the internet.</string>
+    <string name="restart">Restart</string>
+    <string name="offline_mode_restart_app_msg">You are connected to the internet now. Please restart the app.</string>
+    <string name="btn_go_to_class_activity">Go to class activities</string>
+    <string name="go_to_save_videos">Go to saved videos</string>
+
+    <string name="no_clicker_assigned">No clicker assigned</string>
+    <string name="this_activity_has_already_been">This activity has already been submitted</string>
+
+    <string name="there_isnt_any_available">There isn\'t any available class activity to view. You possibly have not accessed a class activity previously or there is not a saved one. Try connecting to the internet and refresh the page.</string>
+    <string name="title_menu_activity_main_navigation_view_edumall">Edumalls</string>
+    <string name="title_absent_type">Choose absence type</string>
+    <string name="others">Others</string>
+    <string name="no_comment">No comment</string>
+    <string name="title_menu_discussion_room_filter">Sort by</string>
+    <string name="title_menu_discussion_room_student_filter">Student Filter</string>
+    <string name="you_can_not_call_student">You can\'t call the student</string>
+    <string name="update_now">Update Now</string>
+</resources>
